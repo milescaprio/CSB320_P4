@@ -1,0 +1,25 @@
+name: csb320-p3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - scikit-learn
+  - imbalanced-learn
+  - seaborn
+  - matplotlib
+  - ipython
+  - pip
+  - ipykernel
+  - nltk
+  - pillow
+  - pip:
+    - black[jupyter]
+    - black
+    - jupyterlab_code_formatter
+    - flake8
+    - textblob
+    - nbqa
+    - flake8
