@@ -15,4 +15,4 @@ Or view website:
 
 root: index.html
 
-https://milescaprio.github.io/csb320_p3
+https://milescaprio.github.io/CSB320_P3
