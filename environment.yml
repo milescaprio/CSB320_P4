@@ -1,4 +1,4 @@
-name: csb320-p3
+name: csb320-p4
 channels:
   - conda-forge
   - defaults
@@ -15,6 +15,7 @@ dependencies:
   - ipykernel
   - nltk
   - pillow
+  - pygame
   - pip:
     - black[jupyter]
     - black
@@ -23,3 +24,5 @@ dependencies:
     - textblob
     - nbqa
     - flake8
+    - tqdm
+    - gymnasium[classic_control]
