@@ -1,4 +1,4 @@
-# CSB_P3
+# CSB320_P4
 Project 4 for CSB 320: Reinforcement Learing
 
 Setup: 
