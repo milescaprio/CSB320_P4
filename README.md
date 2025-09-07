@@ -11,10 +11,11 @@ run:
 - bandit_monte_carlo.ipynb
 - gridworld1.ipynb
   
+## Results of this project
 
-<u>Hyperparameters that had the biggest effect on performance</u>
+<u></u>
 
-In this test, I felt like the epsilon related settings carried the most weight. Learners needed a balanced exploration rate and a well tuned decay otherwise they either never settled on a good path or stopped exploring too soon. Alpha and Gamma had secondary impact, but without the right epsilon strategy, the agent failed to learn effectively.
+My intuition tells me the Epsilon-related hyperparameters exhibited the greatest impact on performance in this training run, as it was the core influence governing the learning habits of an agent. Learners needed both a balanced exploration rate and well-tuned decay, otherwise, they would either never settle on a good path, or stop exploring too soon. Alpha- and Gamma- had the next greatest impact, 
 
 <u> How does epsilon decay influence exploration versus exploitation ?</u>
 
